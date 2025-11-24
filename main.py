@@ -1,0 +1,39 @@
+from pyscript import display 
+
+def club1_information():
+    
+    club1 ={
+        'Club Name':'Glee Club',
+        'Description':'A club for singing enthusiasts',
+        'Meeting Time':'Mondays and Wednesdays at 3:00pm',
+        'Location':'Music Room',
+        'Club Moderator':'Ms. Loyola',
+        'Number of members':30
+    }
+
+display(f'{club1['Club Name']} {club1['Description']} {club1['Meeting Time']} {club1['Location']} {club1['Club Moderator']} {club1['Number of Members']}', target="output")
+
+def club2_information():
+    club2 ={
+        'Club Name':'Monarch',
+        'Description':'Show your talent for dancing with other people with the same interests :3',
+        'Meeting Time':'Mondays and Wednesdays at 3:00pm',
+        'Location':'Dance Room',
+        'Club Moderator':'Mr. Marutani',
+        'Number of members':30
+    }
+
+display(f'{club2['Club Name']} {club2['Description']} {club2['Meeting Time']} {club2['Location']} {club2['Club Moderator']} {club2['Number of Members']}', target="output")
+
+def club3_information():
+    club3 ={
+        'Club Name':'ICT Club',
+        'Description':'Share your love for tech here <3',
+        'Meeting Time':'Tuesday and Thursday at 3:00pm',
+        'Location':'Computer Room',
+        'Club Moderator':'Mr. Ortiz',
+        'Number of members':30
+    }
+
+display(f'{club3['Club Name']} {club3['Description']} {club3['Meeting Time']} {club3['Location']} {club3['Club Moderator']} {club3['Number of Members']}', target="output")
+
