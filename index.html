@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script> <!--python-->
+    <link rel="stylesheet" href="style.css" /> <!--external css-->
+    <title>SKILLS TEST</title>
+</head>
+<body>
+    <div id="container">
+        <h1>School Club Information</h1>
+        <hr>
+        <button id="Glee" py-click="club1_information">Glee Club</button><br>
+        <button id="Monarch" py-click="club2_information">Dance Club</button><br>
+        <button id="ICT" py-click="club3_information">ICT Club</button><br>
+
+        <div id="output"></div>
+    </div>
+
+    <py-script src="main.py"></py-script>
+</body>
+</html>
